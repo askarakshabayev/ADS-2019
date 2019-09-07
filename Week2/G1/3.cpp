@@ -17,12 +17,6 @@ bool check(int r, int c) {
 } 
 
 int main() {
-
-    int t[100]; // t[i] = *(t + i) 1 2 3 4 5
-    
-    for (int i = 0; i < 100; i++)
-        cout << *(b + i) << endl; // b[i]
-
     cin >> n >> m;
     // for (int i = 0; i < n; i++)
     //     for (int j = 0; j < m; j++)
